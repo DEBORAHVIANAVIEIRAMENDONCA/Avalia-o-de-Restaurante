@@ -1,0 +1,77 @@
+/*PARA TABLETS*/
+@media screen and (min-width: 768px) and (max-width: 959px){
+	.inside #map-container{
+  position: relative;
+  width: 96%;
+  height: 350px;
+}
+.restaurant-img{
+  background-color: #ccc;
+  float: left;
+  margin: 0;
+  max-width: 100%;
+  min-height: 248px;
+  min-width: 100%;
+  }
+#map {
+  max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 766px) {
+.inside #map-container{
+  position: relative;
+  width: 96%;
+  height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-right: 0;
+  background-color:  blue;
+}
+.restaurant-img{
+ max-width: 100%;
+}
+
+#map {
+  max-width: 100%;
+}
+
+/*falo com container do restaurante e do reviews*/
+
+#restaurant-container {
+  padding: 100px 20px -20px ;
+  width: 100%; 
+}
+
+#reviews-container {
+padding: 20px 20px;
+width: 100%;
+margin: 0 auto;
+}
+/*FOOTER*/
+.inside #footer {
+	margin-top: 20px;
+  width: 100%;
+  float: right;  
+}
+/*FALO COM O PARAGRAFO DE REVIEWS*/
+#reviews-list li p {
+	margin-top: 20px;	
+}
+
+/*FALO COM O NOME home*/
+#restaurants-list .restaurant-img {
+ float: left;
+   }
+ }
+ 
+
+
+
+
+
+
+ 
+
+
